@@ -106,6 +106,7 @@ resource "aws_route_table" "private_rt" {
     Project = var.project
     Env     = var.environment
     Type    = "private"
+    Country = "Japan"
   }
 }
 
