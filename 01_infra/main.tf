@@ -1,3 +1,20 @@
+# ---------------------------------------------
+# Terraform configuration
+# ---------------------------------------------
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "5.17.0"
+    }
+  }
+  backend "s3" {
+    bucket = "ciel-tfstate-bucket"
+    key    = "ciel-app-dev.tfstate"
+    region = "ap-northeast-1"
+  }
+}
+
 provider "aws" {
   # profile = "terraform" terraform cloudではプロフィールを指定するとエラー
   region = "ap-northeast-1"
