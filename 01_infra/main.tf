@@ -1,6 +1,6 @@
 provider "aws" {
-  profile = "terraform"
-  region  = "ap-northeast-1"
+  # profile = "terraform" terraform cloudではプロフィールを指定するとエラー
+  region = "ap-northeast-1"
 }
 
 resource "aws_instance" "dev-instance" {
