@@ -2,6 +2,9 @@ name: "Terraform Plan"
 
 on:
   pull_request:
+    paths:
+      - 01_infra/**
+      - .github/workflows/**
 
 permissions:
   id-token: write
