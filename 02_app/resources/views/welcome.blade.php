@@ -29,9 +29,11 @@
           あなたにぴったりの求人見つかる
         </h3>
         <ul class="topWorks-list">
-          <li class="topWorks-list__item"></li>
-          <li class="topWorks-list__item"></li>
-          <li class="topWorks-list__item"></li>
+          <li class="topWorks-list__item">スカウトサービス</li>
+          <li class="topWorks-list__item">WEB履歴書添削</li>
+          <li class="topWorks-list__item">
+            <b>ジョブカウンセラー</b>
+          </li>
         </ul>
         <div class="moreBtn">
           <p>もっと見る</p>
