@@ -9,7 +9,7 @@ function Example() {
                     <div className="card">
                         <div className="card-header">Example Component</div>
 
-                        <div className="card-body">I'm an example component!</div>
+                        <div className="card-body">この日本語がすぐ出たら同期してるってことか！</div>
                     </div>
                 </div>
             </div>
@@ -19,8 +19,8 @@ function Example() {
 
 export default Example;
 
-if (document.getElementById('example')) {
-    const Index = ReactDOM.createRoot(document.getElementById("example"));
+if (document.getElementById('app')) {
+    const Index = ReactDOM.createRoot(document.getElementById("app"));
 
     Index.render(
         <React.StrictMode>
