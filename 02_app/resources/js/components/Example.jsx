@@ -9,7 +9,7 @@ function Example() {
                     <div className="card">
                         <div className="card-header">Example Component</div>
 
-                        <div className="card-body bold">この日本語がすぐ出たら同期してるってことか！</div>
+                        <div className="card-body font-bold">この日本語がすぐ出たら同期してるってことか！</div>
                         
                     </div>
                 </div>
